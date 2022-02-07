@@ -6,11 +6,13 @@ class lesson1{
         compareNumbers();
 
     }
+    //task2
     public static void printThreeWords() {
         System.out.println("Orange");
         System.out.println("Banana");
         System.out.println("Apple");
     }
+    //task3
     public static void checkSumSign() {
         int a = 1;
         int b = 2;
@@ -20,6 +22,7 @@ class lesson1{
             System.out.println ("Сумма отрицательная");
         }
     }
+    //tas4
     public static void printColor() {
         int value = 77;
         if (value <= 0) {
@@ -30,6 +33,7 @@ class lesson1{
             System.out.println("Зеленый");
         }
     }
+    //task5
     public static void compareNumbers(){
         int a = 5;
         int b = 7;
