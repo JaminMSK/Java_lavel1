@@ -1,8 +1,7 @@
 public class Lesson2 {
     public static void main (String [] args){
         System.out.println(checksum(7, 11));
-        boolean result = integer(0);
-        System.out.println(result? "Положительное" : "Отрицательное");
+        integer(10);
         System.out.println(integer2(-2));
         task4("HellWorld", 3);
         System.out.println(StellarTask(2022));
@@ -11,14 +10,18 @@ public class Lesson2 {
 
     //Task1
     static boolean checksum(int a, int b){
-            int sum = a + b;
-                return (sum >= 10 && sum <=20);
+        int sum = a + b;
+        return (sum >= 10 && sum <=20);
 
     }
 
     //Task2
-    static boolean integer(int a){
-        return a >= 0;
+    public static void integer(int x) {
+        if (x >= 0) {
+            System.out.println("Положительное");
+        } else {
+            System.out.println("Отприцательное");
+        }
     }
 
     //Task3
