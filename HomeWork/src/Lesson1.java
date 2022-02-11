@@ -1,13 +1,13 @@
 public class Lesson1 {
-        public static void main (String [] args){
-            printThreeWords();
-            boolean result = checkSumSign(5,10);
-            System.out.println(result? "Сумма положительная" : "Сумма отрицательная");
-            System.out.println(checkSumSign(-5,-10)? "Сумма положительная" : "Сумма отрицательная");
-            System.out.println(checkSumSign(-5,10)? "Сумма положительная" : "Сумма отрицательная");
-            System.out.println(checkSumSign(5,-10)? "Сумма положительная" : "Сумма отрицательная");
-            printColor();
-            compareNumbers();
+    public static void main (String [] args){
+        printThreeWords();
+        boolean result = checkSumSign(5,10);
+        System.out.println(result? "Сумма положительная" : "Сумма отрицательная");
+        System.out.println(checkSumSign(-5,-10)? "Сумма положительная" : "Сумма отрицательная");
+        System.out.println(checkSumSign(-5,10)? "Сумма положительная" : "Сумма отрицательная");
+        System.out.println(checkSumSign(5,-10)? "Сумма положительная" : "Сумма отрицательная");
+        printColor();
+        compareNumbers();
 
         }
         //task2
