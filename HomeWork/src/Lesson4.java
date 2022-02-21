@@ -1,3 +1,7 @@
+/* Сделал Vladislav Torgashev
+21.02.2022
+ */
+
 import java.util.Random;
 import java.util.Scanner;
 
